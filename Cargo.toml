@@ -1,0 +1,13 @@
+[package]
+name = "gen-world"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust library for procedurally generating realistic solar systems and planets"
+authors = ["Cline"]
+license = "MIT"
+
+[dependencies]
+rand = "0.8"
+rand_distr = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+lazy_static = "1.4"
