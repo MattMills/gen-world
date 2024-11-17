@@ -1,7 +1,6 @@
 use crate::{Composition, Generate, PhysicalProperties, Position};
 use crate::distributions::{habitable_zone_range, calculate_surface_temperature};
 use crate::planet::Planet;
-use crate::small_bodies::SmallBody;
 use rand::prelude::*;
 use serde::{Deserialize, Serialize};
 

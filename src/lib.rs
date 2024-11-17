@@ -6,6 +6,8 @@ pub mod planet;
 pub mod solar_system;
 pub mod small_bodies;
 pub mod small_body_generation;
+pub mod galaxy;
+pub mod galaxy_generation;
 
 #[cfg(test)]
 mod tests;
@@ -80,6 +82,8 @@ pub use planet::{Planet, PlanetType, Atmosphere};
 pub use solar_system::{SolarSystem, Star, StellarType};
 pub use small_bodies::{SmallBody, SmallBodyType, ElementDistribution};
 pub use small_body_generation::SmallBodyGeneration;
+pub use galaxy::{Galaxy, GalacticRegion, GalacticPosition, PopulationType};
+pub use galaxy_generation::GalaxyGeneration;
 
 #[cfg(test)]
 mod unit_tests {
